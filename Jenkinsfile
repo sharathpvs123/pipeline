@@ -1,7 +1,7 @@
 pipeline {
 	    agent any { 
                   environment{
-                                PATH="/usr/share/maven:$PATH"
+                                PATH="/usr/bin/mvn:$PATH"
 		  		}
 	      stages {
 		        stage ('STAGE 1') {

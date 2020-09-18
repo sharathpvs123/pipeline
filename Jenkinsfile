@@ -9,7 +9,7 @@ pipeline {
 	          	                }
 			  stage ('STAGE 2') { agent {label 'node2'}
 			                    steps {
-						    	https://github.com/sharathpvs123/hello-world.git
+						    	git 'https://github.com/sharathpvs123/hello-world.git'
 						    	sh 'mvn clean install'
 			                           }	
 		                          }

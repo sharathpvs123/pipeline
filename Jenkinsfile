@@ -4,7 +4,7 @@ pipeline {
 			  stage ('STAGE 1') { agent {label 'node'}
 		                      	steps {
 							git 'https://github.com/sharathpvs123/repo1.git'
-							sh make
+							sh 'make'
 		                             	}	
 	          	                }
 			  stage ('STAGE 2') { agent {label 'node2'}

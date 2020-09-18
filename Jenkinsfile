@@ -10,7 +10,7 @@ pipeline {
 	          	                }
 		        stage ('STAGE 2') {
 			                    steps {
-						    	build 'java-project'
+						    	build 'deploy new java'
 				                           // echo 'This is slaveforjava with STAGE 2'
 				                           // sh "mvn clean package"
 			                           }	

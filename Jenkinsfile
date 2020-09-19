@@ -1,7 +1,7 @@
 pipeline {
 	agent none 
                   stages {
-			  stage ('make and mavan') {
+			  stage ('make and maven') {
 				  parallel{
 					  
 			  stage ('STAGE 1') { agent {label 'node'}
